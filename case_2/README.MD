@@ -1,13 +1,16 @@
 # Modelo de Classificação para Previsão de Inadimplência em Crédito
 
+![](https://storage.googleapis.com/kaggle-datasets-images/306/666/d68d599bfe6995fa5772df1e82c4e83c/dataset-cover.jpg)
+
+
 No mercados de crédito, um desafio sempre presente é a avaliação da inadimplência. Em um mundo onde a concessão de crédito é essencial para o crescimento econômico e financeiro, a capacidade de prever com precisão se um indivíduo cumprirá suas obrigações financeiras ou se tornará inadimplente é de suma importância.A inadimplência pode ter impactos significativos na estabilidade econômica e nas estratégias de tomada de decisão financeira das famílias e, por consequência, na economia como um todo. Para as empresas de crédito, ter um modelo de classificação para prever se o cliente irá pagar ou não permite gerenciar riscos financeiros, reduzir perdas, tomar decisões de crédito mais informadas, melhorar a experiência do cliente, cumprir regulamentações e aumentar a eficiência operacional. Ao identificar previamente os clientes com maior probabilidade de não pagar suas dívidas, essas empresas podem implementar medidas proativas, como ajustar limites de crédito, taxas de juros e estratégias de cobrança, resultando em uma redução de perdas, melhoria na rentabilidade e na confiança do mercado.
 
 Neste estudo, exploro a construção de um modelo de classificação, utilizando técnicas de machine learning, para prever a probabilidade de inadimplência com base em informações disponíveis de crédito sobre os clientes. 
 
 A base de dados contém informações sobre pagamentos inadimplentes, fatores demográficos, dados de crédito, histórico de pagamentos e extratos de faturas de clientes de cartões de crédito em Taiwan de abril de 2005 a setembro de 2005. O projeto foi desenvolvido em um Jupyter Notebook. Nele encontra-se toda a análise e a justificativa para cada passo tomado. Abaixo, encontra-se links com a fonte dos dados, o dicionário e o notebook da análise.
 
-- [Base de dados](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset?resource=download)
-- [Dicionário](https://github.com/biancaportela/4intelligence/blob/teste-ohe/case_2/dados/dicionario.md)
+- [Base de dados]()
+- [Dicionário]()
 - [Análise]()
 
 O estudo de caso foi feito seguindo a metodologia CRISP-DM. O CRISP-DM é um modelo padrão que define um processo estruturado e organizado para projetos de análise de dados. O modelo é composto por cinco fases: Planejamento, Preparação, Modelagem, Avaliação e Implantação. As medidas para cada etapa foram as seguintes:
