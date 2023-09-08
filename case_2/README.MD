@@ -9,9 +9,9 @@ Neste estudo, exploro a construção de um modelo de classificação, utilizando
 
 A base de dados contém informações sobre pagamentos inadimplentes, fatores demográficos, dados de crédito, histórico de pagamentos e extratos de faturas de clientes de cartões de crédito em Taiwan de abril de 2005 a setembro de 2005. O projeto foi desenvolvido em um Jupyter Notebook. Nele encontra-se toda a análise e a justificativa para cada passo tomado. Abaixo, encontra-se links com a fonte dos dados, o dicionário e o notebook da análise.
 
-- [Base de dados]()
-- [Dicionário]()
-- [Análise]()
+- [Base de dados](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset?resource=download)
+- [Dicionário](https://github.com/biancaportela/4intelligence/blob/main/case_2/dados/dicionario.md)
+- [Análise](https://github.com/biancaportela/4intelligence/blob/main/case_2/case.ipynb)
 
 O estudo de caso foi feito seguindo a metodologia CRISP-DM. O CRISP-DM é um modelo padrão que define um processo estruturado e organizado para projetos de análise de dados. O modelo é composto por cinco fases: Planejamento, Preparação, Modelagem, Avaliação e Implantação. As medidas para cada etapa foram as seguintes:
 
