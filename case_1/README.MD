@@ -4,7 +4,7 @@ Esse projeto faz parte do primeiro de dois desafios propostos pela  [4intelligen
 
 O desafio técnico é projetar a taxa de inadimplência dos próximos 12 meses da série de inadimplência da carteira de crédito disponibilizada pelo Banco Central do Brasil, defender a projeção e responder quais são, provavelmente os drivers desses valores.
 
-O resultados da análise, assim como todos os passos e justificativas para minhas decisões podem ser encontradas no JupyterNotebook [aqui]().
+O resultados da análise, assim como todos os passos e justificativas para minhas decisões podem ser encontradas no JupyterNotebook [aqui](https://github.com/biancaportela/4intelligence/blob/main/case_1/analise_final.ipynb).
 
 A projeção de séries temporais é um tópico particular dentro da ciência de dados. Isso por que, uma série temporal representa uma sequência de observações de uma variável específica ao longo do tempo. Um dos principais objetivos é a previsão dos valores futuros dessa variável. Essa capacidade de previsão é viável devido à persistência parcial dos valores da variável ao longo do tempo - o valor em um determinado período está relacionado aos valores que a variável assumiu em períodos anteriores. Portanto, é possível estabelecer uma correlação entre a variável em estudo e seus valores passados. Portanto, em séries temporais a projeção do futuro é baseada por fatores passados - as defasagens. 
 
