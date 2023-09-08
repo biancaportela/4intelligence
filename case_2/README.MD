@@ -26,3 +26,13 @@ informações de uma pessoa, ela pagará ou não sua dívida. A partir da base d
 
 
 Como passos futuros, acredito que seja possível melhorar as métricas de desempenho do modelo, principalmente em relação a precisão média. É necessário testar mais modelos e talvez fazer alguma engenharia de atributos. Além disso, um próximo passo seria fazer o deploy deste modelo. O Streamlit é uma biblioteca que facilita a criação de aplicativos da web interativos para análise de dados, visualização e prototipagem rápida. Com o Streamlit é possível criar um site onde o usuário pode fornecer algumas informações e conseguir o resultado da previsão de maneira rápida e simples. Assim, o próximo passo desse projeto seria fazer o deploy do modelo treinado e criar uma plataforma onde possa-se inserir os dados e obter a previsão se o cliente será inadimplente ou não. 
+
+# REFERÊNCIAS
+
+ - Default of Credit Card Clients Dataset - [Base de dados](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset?resource=download)
+
+ - Machine Learning – Guia de Referência Rápida: Trabalhando com dados estruturados em Python, Matt Harrison
+
+- Intuition behind ROC-AUC score - [Gaurav Dembla](https://towardsdatascience.com/intuition-behind-roc-auc-score-1456439d1f30)
+
+- F1 Score vs ROC AUC vs Accuracy vs PR AUC: Which Evaluation Metric Should You Choose? - [Jakub Czakon](https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc)
