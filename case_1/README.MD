@@ -12,9 +12,9 @@ Nessa projeção eu optei por utilizar a modelagem econometrica clássica. Os pa
 
 Essa série cobre um espaço temporal de mais de 10 anos, inclusive os anos de pandemia da COVID-19. A pandemia afetou o comportamento de diversos mercados e com o mercado de crédito não poderia ser diferente. Isso afeta os valores da projeção obtida. 
 
-Outro problema que encontrei com a série foi que ao fazer o teste de estacionariedade, a série foi considerada estacionária em nível. Por causa disso, continuei com a projeção. Entretando, os modelos tiveram resultados muito ruins. Na tentativa de melhorar as projeções, eu tirei a primeira diferença da série. Eu desconfiei que o fator de tendência estava afetando meus resultados originais. Após tirada a primeira diferença fiz o mesmo processo e obti resultados melhores. 
+Outro problema que encontrei com a série foi que ao fazer o teste de estacionariedade, a série foi considerada estacionária em nível. Por causa disso, continuei com a projeção. Entretanto, os modelos tiveram resultados muito ruins. Na tentativa de melhorar as projeções, eu tirei a primeira diferença da série. Eu desconfiei que o fator de tendência estava afetando meus resultados originais. Após tirada a primeira diferença fiz o mesmo processo e obti resultados melhores. 
 
-Um passo posterior é utilizar modelos mais sofisticados que conseguiam modelar os anos de pandemia de maneira mais satisfatoria. O [Prophet](https://facebook.github.io/prophet/) é um modelo de previsão de séries temporais desenvolvido pelo Facebook para ajudar na previsão de dados temporais com sazonalidade e mudanças significativas de tendência (como esse caso). 
+Um passo posterior é utilizar modelos mais sofisticados que consigam modelar os anos de pandemia de maneira mais satisfatoria. O [Prophet](https://facebook.github.io/prophet/) é um modelo de previsão de séries temporais desenvolvido pelo Facebook para ajudar na previsão de dados temporais com sazonalidade e mudanças significativas de tendência (como esse caso). 
 
 Além de usar um modelo mais robusto, posso levar em consideração os anos de pandemia de maneira mais explicita no modelo. A documentação do Prophet oferece uma [metodologia](https://facebook.github.io/prophet/docs/handling_shocks.html) para lidar com o choque da pandemia, que é tratar os lockdowns como um feriado único. 
 
